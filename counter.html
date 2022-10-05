@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Count words</title>
 </head>
-<body>
-    <textarea  id="text" cols="30" rows="10"></textarea><br>
-    <button onclick="wordCounter()" >count words</button>
+<body align="center">
+    <textarea  id="text" cols="30" rows="10" oninput="wordCounter()"></textarea><br>
+
     <p id="show"></p>
     <p id="show1"></p>
     
@@ -27,8 +27,6 @@
             }
             else if(elements==" "){
                 count+=1;
-               
-
             }
            
         }
